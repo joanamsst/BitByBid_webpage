@@ -61,7 +61,7 @@ The UI is:
 
 ---
 
-## ☁️ Deployment & Scalability
+## Deployment & Scalability
 
 - Successfully tested and deployed on AWS EC2  
 - PostgreSQL database ready for migration to AWS RDS  
