@@ -1,0 +1,94 @@
+/* --- Home Page Styles --- */
+
+.home-text-section {
+    flex: 1;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    width: 100%;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: -60px;
+}
+
+.home-text-section h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-left: 0px;
+    padding: 20px;
+    color: #47aaca;
+    width: 100%;
+}
+
+.home-text-section p {
+    font-size: 30px;
+    font-family: monospace;
+    line-height: 1.5;
+    max-width: 400px;
+    line-height: 1.5;
+    width: 100%;
+}
+
+/* Para o botão de Submit no Home */
+#homeSubmitBtn {
+    background-color: transparent !important;
+    color: #ED2B68 !important;
+    border: 5px solid #ED2B68 !important;
+    border-radius: 50px !important;
+    padding: 10px 20px !important;
+    font-weight: bold !important;
+    font-family: monospace;
+    cursor: pointer !important;
+    transition: background-color 0.3s, color 0.3s !important;
+}
+
+.home-image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    width: 1000px;
+    margin-left: -80px;
+}
+
+
+.black-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:transparent;
+  padding: 40px;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+}
+
+.home-text-section,
+.home-image-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 300px;
+    width: 100%;
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho do botão */
+    background-color: #47aaca; /* Alterar para cor mais chamativa */
+    color: #fff; /* Manter texto legível */
+}

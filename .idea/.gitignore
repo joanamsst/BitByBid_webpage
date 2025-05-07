@@ -1,0 +1,39 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven output
+/target/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment/IDE-specific
+*.swp
+*.swo
+
+# Application properties with secrets (optional)
+# Uncomment if you're storing secrets in these
+# src/main/resources/application.properties
+# src/main/resources/application.yml
+
+# PostgreSQL artifacts (if any)
+*.sql
+
+# Local settings
+.env

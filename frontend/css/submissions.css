@@ -1,0 +1,41 @@
+/* style.css */
+
+.submission-card {
+    background: #111;
+    font-family: monospace;
+    color: #555;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid #47AACA;
+    border-radius: 8px;
+}
+.submission-card h4 {
+    margin-bottom: 5px;
+    color: #ED2B68;
+}
+.download-btn {
+    background-color: #47AACA;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.download-btn:hover {
+    background-color: #3792A6;
+}
+.page-btn {
+    background: #222;
+    color: white;
+    border: 1px solid #47AACA;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.page-btn:disabled {
+    background-color: #47AACA;
+    color: black;
+    font-weight: bold;
+}

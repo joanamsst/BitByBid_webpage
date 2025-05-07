@@ -1,0 +1,124 @@
+/* contact us title */
+.formTitle {
+    color: #ED2B68;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+/* form fields title */
+.contactForm label {
+    display: block !important;
+    color: #fff !important;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+}
+
+
+/* form fields */
+.contactForm input[type="text"],
+.contactForm input[type="email"] {
+    width: 100%;
+    padding: 10px !important;
+    border-radius: 6px !important;
+    border: 0.2px solid #74B32D !important;
+    background-color: #222;
+    color: white;
+}
+
+
+/* submit button */
+.contactForm button[type="submit"] {
+    justify-content: center;
+    align-self: center;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    background-color: #74B32D;
+    color: black;
+    border: 1px solid #74B32D;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 180px;
+    transition: background-color 0.3s;
+}
+
+
+/* submit button pass over style */
+.contactForm button[type="submit"]:hover {
+    background-color: #436d12;
+}
+
+
+/* message after successfull submit */
+.form-message {
+    align-self: center;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #74B32D;
+}
+
+
+/* form container */
+#app > form {
+    background-color: rgba(0, 0, 0, 0.527) !important;
+    border: 3px dashed #47AACA !important;
+    border-radius: 16px !important;
+    padding: 50px !important;
+    width: 100% !important;
+    max-width: 1000px !important;
+    margin: 180px auto !important;
+    font-family: monospace !important;
+    display: flex !important;
+    margin-top: 170px !important;
+}
+
+/* modal success popup */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+  }
+
+  .modal-content {
+    background-color: #111;
+    padding: 30px;
+    border: 2px solid #74B32D;
+    border-radius: 12px;
+    text-align: center;
+    color: #74B32D;
+  }
+  .modal-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #74B32D;
+    background-color: #222;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  .modal-buttons button:hover {
+    background-color: #74B32D;
+    color: black;
+  }
+
+  .contactForm input:-webkit-autofill {
+    background-color: #222 !important;
+    -webkit-box-shadow: 0 0 0px 1000px #222 inset !important;
+    -webkit-text-fill-color: white !important; /* esta é a chave para o texto */
+    transition: background-color 5000s ease-in-out 0s;
+  }

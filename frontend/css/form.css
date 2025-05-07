@@ -1,0 +1,183 @@
+
+#app {
+    width: 100% !important;
+}
+
+.card-title {
+    color: #ED2B68 !important;
+    font-family: monospace !important;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container textarea {
+    width: 100% !important;
+}
+
+/* 
+.form-container button {
+    background-color: #555 !important; 
+    color: white !important;
+    border: 1px solid #444 !important;
+    padding: 10px 20px !important;
+    border-radius: 6px !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    transition: none !important;
+} */
+
+.text-muted {
+    color: #444 !important;
+    font-size: 1.2rem !important;
+    font-family: monospace;
+}
+
+
+/* Estilos de Botões específicos para os Steps */
+#formStep1 #nextBtn,
+#formStep2 #nextBtn,
+#formStep3 #nextBtn {
+    background-color: #74b32d !important;
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid #74B32D !important;
+    padding: 10px 20px !important;
+    border-radius: 20px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#formStep1 #nextBtn:hover,
+#formStep2 #nextBtn:hover,
+#formStep3 #nextBtn:hover {
+    background-color: #74b32d7b !important;
+}
+
+/* Estilo do botão Prev em cada step */
+#formStep1 #prevBtn,
+#formStep2 #prevBtn,
+#formStep3 #prevBtn,
+#formStep4 #prevBtn {
+    background-color: #47AACA !important;
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid #47AACA !important;
+    padding: 10px 20px !important;
+    border-radius: 20px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#formStep1 #prevBtn:hover,
+#formStep2 #prevBtn:hover,
+#formStep3 #prevBtn:hover,
+#formStep4 #prevBtn:hover {
+    background-color: #47AACA7b !important;
+}
+
+/* Botão Submit */
+#submitButton {
+    background-color: #74b32d !important;
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid #74B32D !important;
+    padding: 10px 20px !important;
+    border-radius: 20px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#submitButton:hover {
+    background-color: #74b32d7b !important;
+}
+
+
+#homeSubmitBtn:hover {
+    background-color: #ED2B68 !important;
+    color: black !important;
+}
+
+/* Outros ajustes para garantir o estilo do formulário */
+form {
+    margin: 20px 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px !important;
+    padding: 15px !important;
+    border: 1px solid #cccccc00 !important;
+    border-radius: 8px !important;
+    background-color: #00000000 !important;
+}
+
+label {
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
+    color:#ffffff !important;
+    font-family: monospace;
+}
+
+input,
+textarea {
+    font-size: 20px !important;
+    margin-bottom: 15px !important;
+    padding: 10px !important;
+    border-radius: 6px !important;
+    border: 0.2px solid #74B32D !important;
+    background-color: #222 !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+input[type="date"] {
+    font-size: 20px !important;
+    max-width: 200px !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+textarea {
+    font-size: 20px !important;
+    height: 100px !important;
+    resize: vertical !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+::placeholder {
+    color: #323232 !important;         
+    font-family: Arial !important;    
+    font-size: 20px !important;       
+}         
+
+/* Barra de Progresso */
+#progressStep1 {
+    background-color:#ED2B68; 
+}
+
+#progressStep2 {
+    background-color: #74b32d;
+}
+
+#progressStep3 {
+    background-color: #47AACA; /* Rosa */
+}
+
+#progressStep4 {
+    background-color: #ED2B68 /* Rosa */
+}
+
+.card-body {
+    background-color: #00000092 !important;
+    border-radius: 12px !important;
+    border: 3px dashed #47AACA !important;
+    width: 1300px !important;
+    width: 100% !important;
+}

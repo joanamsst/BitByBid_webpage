@@ -1,0 +1,10 @@
+# Ignorar a pasta de builds do Maven
+/target/
+
+# Ignorar ficheiros compilados
+*.class
+
+# Ignorar ficheiros temporários do Maven
+target/maven-status/target/
+target/
+*.war
