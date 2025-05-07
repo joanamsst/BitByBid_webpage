@@ -1,5 +1,7 @@
 # RFP Manager
 
+link of webpage: http://ec2-13-60-169-55.eu-north-1.compute.amazonaws.com/
+
 An intelligent application built with Java and Spring Boot that allows teams to manage, create, and automatically respond to Requests for Proposals (RFPs) in a fast, structured, and business-oriented way.  
 This system combines a robust backend with modern AI integration, streamlining the creation of tailored proposals based on past data and best practices.
 
